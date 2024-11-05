@@ -17,7 +17,7 @@ class WebSocketService {
   dynamic selected = "";
 
   void connect(String url) {
-    _channel = HtmlWebSocketChannel.connect(Uri.parse("http://localhost:8080/$url"));
+    _channel = HtmlWebSocketChannel.connect(Uri.parse("ws://localhost:8080/$url"));
     // _channel = HtmlWebSocketChannel.connect(Uri.parse("ws://localhost:60061/$url"));
     // _channel = HtmlWebSocketChannel.connect(Uri.parse("ws://187.122.102.36:60061/$url"));
     // _channel = HtmlWebSocketChannel.connect(Uri.parse("ws://191.252.3.43:60061/$url"));

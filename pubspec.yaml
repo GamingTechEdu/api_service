@@ -10,7 +10,6 @@ dependencies:
 #   path: ^1.8.0
   web_socket_channel: 2.3.0
   
-
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.16.0
